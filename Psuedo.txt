@@ -1,0 +1,41 @@
+
+Play audio: 
+
+initialize audio variable
+intitalize userHasScrolledVariable boolean variable
+set audio to turtlesound mp3
+if userHasScrolledVariable is true 
+	call audio play function
+
+image slider:
+ 
+initialize swiper object 
+set object properties as:
+	slides distance between as 'spaceBetween' to 30
+	infinite loop for slider as 'loop' to true
+	enable slide pagination 
+	enable breakpoints 
+		define slides per page to two below screen width 768
+		define slide per page to three below screen width 1024
+		default slide per page is 3
+
+send button animation:
+
+initialize gsap timeline object
+call timeline function on send button 
+	pass x coordinate and duration 
+define appearance, duration and transition properties of button, text,
+progressbar and check button svg
+
+
+onScroll background change: 
+
+initialize gsap scrolltrigger 
+set trigger to html section id and section's container
+define background, duration and transition properties of both. 
+
+closeModal
+initialize modal
+set modal variable to acknowleddge popup DOM element
+set modal's css style's display property as none
+

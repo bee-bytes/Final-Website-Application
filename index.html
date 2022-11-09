@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/icon.png">
+    <title>Reef Relief</title>
+</head>
+
+<body>
+
+    <main>
+        <!--------COVERPAGE SECTION--------------->
+        <section id="cover">
+            <div class="container-fluid">
+                <!--DONATE BUTTON-->
+                <!--shoelace component-->
+                <nav class="d-flex">
+                    <sl-button class="mt-3 ms-auto cta">DONATE
+                    </sl-button>
+                </nav>
+                <div class="content d-flex flex-column justify-content-between animation">
+                    <h1 class="mx-md-5">Reef <br> Relief</h1>
+                    <!--CLIENTS LOGOS -->
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <h2 class="text-white text-center my-3 animation">OUR PARTNERS</h2>
+                            <div class="logos d-flex justify-content-center animation  ">
+                                <img src="images/Companies1.png" alt="Companies1">
+                                <img src="images/Companies2.png" alt="Companies2">
+                                <img src="images/Companies3.png" alt="Companies3">
+                                <img src="images/Companies4.png" alt="Companies4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--SCROLL TO NEXT SECTION-->
+        <section id="scrolldown">
+            <div class="container-fluid">
+                <div class="text-center p-2">
+                    Scroll and hear the turtles
+                    <div class="fs-1">
+                        <a href="#great-barrier">
+                            <!--shoelace component-->
+                            <sl-icon name="chevron-compact-down"></sl-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--GBR SECTION WITH DESCRIPTION-->
+        <section id="great-barrier">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        <div class="content-great-barrier mx-1 mt-3 mb-5  pb-3 px-md-5">
+                            <h2 class="text-orange text-center">THE GREAT BARRIER REEF</h2>
+                            <p class="mt-4 text-cyan fw-bold text-center pb-4"> The Great Barrier Reef is considered the world's largest coral reef system composed of over 2,900 individual reefs and 900 islands. It is home to a unique range of ecological communities, habitats and species as well as a perfect
+                                hotspot for thousands of tourists every year. While discovering the reef, and making the best time of your adventures, it is a great opportunity to learn and help keep the reef from a relief. In the last few decades, researchers
+                                have been trying to convince that the reef has been under several threats. In order to give the REEF a RELIEF, we encourage our visitors to find ENTERTAINMENT, then EDUCATE themselves and lastly EARN the opportunity to
+                                help protect the reef.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------ACCORDIONS FOR COLLAPSIBLE CONTENT-------------------->
+        <section id="collapsibles">
+            <div class="container-fluid">
+                <div id="accordion">
+
+                    <!---------ENTERTAINMENT------------>
+                    <!---------------------------------->
+                    <div class="card mb-3 entertainment ">
+                        <div class="card-header " id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link w-100" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Entertainment
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-bs-parent="#accordion">
+
+                            <!--IMAGE GALLERY-->
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="img-container">
+                                            <img class="img-fluid" src="Images/enter-one.jpg" alt="Attractions">
+                                            <h3>Attractions</h3>
+                                            <p>
+                                                Queensland is unique amongst the Australian States in that it has a number of genuine coastal capitals. The reef is covered with unique and exotic islands and it will redefine your idea of paradise. <b> Read More</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="img-container">
+
+                                            <img class="img-fluid" src="Images/enter-two.jpeg" alt="Activities">
+                                            <h3>Activities</h3>
+                                            <p>
+                                                Theres a diverse range of tourism operation in the Great Barrier Reef including day/night tours, snorkelling, scuba-diving, helicopter rides, beach hire , water sports and <b>more...</b>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="img-container">
+
+                                            <img class="img-fluid" src="Images/enter-three.jpg" alt="Accommodation">
+                                            <h3>Accommodation</h3>
+                                            <p>
+                                                Looking for the perfect place to stay? Cairns is the perfect destination from which to explore many wonders of the Great Barrier Reef. It has great hotels and resorts to suit any budget. <b>See More</b>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---------EDUCATION------------>
+                    <!------------------------------>
+                    <div class="card mb-3 education">
+                        <div class="card-header " id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed w-100" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Education
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+
+                            <!--IMAGE GALLERY-->
+                            <div class="card-body">
+                                <div class="row mb-2">
+                                    <div class="col-sm-12">
+                                        <div class="img-container text-top">
+                                            <img src="images/edu-one.jpg" alt="climatechange">
+                                            <h3>Climate Change</h3>
+                                            <p>
+                                                The Great Barrier Reef is one of the richest and most complex natural ecosystems in the world, but the climate change is the biggest threat to the future of coral reefs around the world. Temperatures are rising on our land and in our oceans, caused primarily
+                                                by an increase of carbon dioxide and other greenhouse gases. Carbon dioxide levels have been rising steadily for more than 100 years due mainly to the burning of fossil fuels, trapping more heat in our atmosphere
+                                                and contributing to climate change.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="img-container">
+                                            <img src="images/edu-two.jpg" alt="coralbleeching">
+                                            <h3>Coral <br> Bleeching</h3>
+                                            <p>
+                                                When corals suffer heat stress, they expel the microscopic algae that live inside their tissues, revealing their white skeletons. Bleached corals are not dead, but are more at risk of starvation and disease.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="img-container">
+                                            <img src="images/edu-three.jpg" alt="waterquality">
+                                            <h3>Poor <br> Water Quality</h3>
+                                            <p>
+                                                Increasing sediment, nutrients and contaminants, combined with rising sea temperatures and ocean acidification are damaging our Reef. Coral reefs, and the ecosystems they sustain, depend on the quality of the water within and around them.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="img-container">
+                                            <img src="images/edu-four.jpg" alt="habitatchanges">
+                                            <h3>Habitat <br> Changes</h3>
+                                            <p>
+                                                As water temperatures rise, many marine species are being forced to move south to cooler habitats. This shift creates increased competition for food and shelter in cooler waters, threatening the entire ecosystem. The loss of marine life can have a devastating
+                                                impact on local ecosystems, food sources and other industries such as tourism.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card earnit">
+                        <div class="card-header " id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed w-100 " data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Earn It
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                            <!--IMAGE GALLERY AS SLIDER - USING SWIPER JS-->
+
+                            <div class="card-body">
+                                <div class="swiper mySwiper">
+
+                                    <div class="swiper-wrapper">
+                                        <!--SLIDE CONTENT-->
+                                        <div class="swiper-slide">
+                                            <h3 class="swiper-heading">Raine Island Recovery Project</h3>
+
+                                            <img src="images/earn-one.jpg" alt="">
+                                        </div>
+                                        <!--SLIDE CONTENT-->
+
+                                        <div class="swiper-slide">
+
+                                            <h3 class="swiper-heading">Reef Protectors</h3>
+                                            <img src="images/earn-two.jpg" alt="">
+                                        </div>
+                                        <!--SLIDE CONTENT-->
+
+                                        <div class="swiper-slide">
+                                            <h3 class="swiper-heading">Coral Sea-Quence</h3>
+
+                                            <img src="images/earn-three.jpg" alt="">
+
+                                        </div>
+                                        <!--SLIDE CONTENT-->
+
+                                        <div class="swiper-slide">
+                                            <h3 class="swiper-heading">Technology</h3>
+
+                                            <img src="images/earn-four.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!--SLIDE CONTENT-->
+
+                                            <h3 class="swiper-heading">Reef Recovery 2030</h3>
+                                            <img src="images/earn-five.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <!--SLIDE CONTENT-->
+
+                                            <h3 class="swiper-heading">Bleach Cleaning Activity</h3>
+                                            <img src="images/earn-six.jpeg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--SLIDER NAVIGATION CONTROLS-->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-----------CALL-TO-ACTION SECTION------------->
+
+        <section id="call-to-actionn">
+            <div class="container">
+                <div class="reef px-4 py-5 d-flex justify-content-end my-5">
+                    <h1>#RUN4 <br> REEF</h1>
+
+                    <img class=" img-fluid" src="images/runform.jpeg" alt="">
+
+                    <!--REGISTER FORM-->
+                    <div class="register-form text-center">
+                        <h4 class="fw-700 mb-4">
+                            Register Now!
+                        </h4>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. sit obcaecati eos sed odit quas eius.
+                        <div class="my-3">
+                            <sl-input placeholder="Enter Email here"></sl-input>
+                        </div>
+
+                        <!--SEND BUTTON-->
+                        <div class="anime">
+                            <div class="button">
+                                <div class="text">Send</div>
+                            </div>
+
+                            <!--PROGRESS BAR-->
+                            <div class="progress-bar"></div>
+                            <!--CHECK ICON USING SVG ANIME-->
+                            <svg x="0px" y="0px" viewBox="0 0 25 30" style="enable-background:new 0 0 25 30;">
+                                <path class="check" id="checkid" class="st0" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2" />
+                            </svg>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------MODAL POPUP------------->
+        <div class="modal" style="display: block;" id="acknowledge" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <div class="modal-body p-0">
+                        <img class="img-fluid" src="images/bg-brown.jpeg" alt="popup-">
+
+                        <div class="content text-white">
+
+                            <div class="d-flex justify-content-end">
+                                <!--CLOSE MODAL BUTTON-->
+                                <a href="#" onclick="closeModal()" data-bs-dismiss="modal" aria-label="Close" class="text-white">
+
+                                    <!--shoelace component-->
+                                    <sl-icon name="x-lg"></sl-icon>
+                                </a>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h4 class="mb-3  text-center">
+                                        Acknowledgement
+                                    </h4>
+                                    <p class="text-center ">
+                                        Reef Relief respects and recognises all Traditional Owners of the Great Barrier Reef as First Nations People holding the hopes, dreams, traditions and cultures of the reef.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--SCROLL TO TOP-->
+        <section id="scrollup">
+            <div class="container-fluid">
+                <div class="text-center p-2">
+                    <div class="fs-1">
+                        <a href="#cover">
+
+                            <!-----------shoelace component------------->
+                            <sl-icon name="chevron-compact-up"></sl-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--------------------FOOTER-------------------->
+        <footer>
+            <div class="container-fluid">
+                <div class="align-items-center d-flex justify-content-between p-1">
+                    <a href="#" class="fs-5 fs-6 text-decoration-none text-white">reefrelief@gmail.com | 08 4564 2332 </a>
+                    <a href="#" class="text-white fs-4">
+
+                        <sl-icon name="facebook" library="default"></sl-icon>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
